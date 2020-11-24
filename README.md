@@ -4,23 +4,23 @@ Los archivos `.m` son funciones utilizadas con MatLab, cada uno tiene su imagen 
 
 ## Estrella - Estrella (Sin Neutro)
 ![img](https://github.com/christian-herrera/Sistemas-Polifasicos/blob/main/docs/imgYYSinNeutro.jpg?raw=true)
-Este algoritmo necesita los valores de `V<sub>RN<\sub>`, `V<sub>SN<\sub>` y `V<sub>TN<\sub>`. Ademas de las cargas `Z<sub>rn<\sub>`, `Z<sub>sn<\sub>` y `Z<sub>tn<\sub>`.
+Este algoritmo necesita los valores de las tensiones en cada generador y los valores de cada impedancia.
 
 
 ## Estrella - Estrella (Con Neutro)
 ![img](https://github.com/christian-herrera/Sistemas-Polifasicos/blob/main/docs/imgYYConNeutro.jpg?raw=true)
-Este algoritmo necesita los valores de `V<sub>RN<\sub>`, `V<sub>SN<\sub>` y `V<sub>TN<\sub>`. Ademas de las cargas `Z<sub>rn<\sub>`, `Z<sub>sn<\sub>` y `Z<sub>tn<\sub>`.
+Este algoritmo necesita los valores de tension en cada generador y los valores de cada impedancia.
 
 
 ## Estrella - Estrella (Con Impedancia en el Neutro)
 ![img](https://github.com/christian-herrera/Sistemas-Polifasicos/blob/main/docs/imgYYConZn.jpg?raw=true)
-Este algoritmo necesita los valores de `V<sub>RN<\sub>`, `V<sub>SN<\sub>` y `V<sub>TN<\sub>`. Ademas de las cargas `Z<sub>rn<\sub>`, `Z<sub>sn<\sub>`,  `Z<sub>tn<\sub>` y `Z<sub>nN</sub>`.
+Este algoritmo necesita los valores de tension en cada generador y los valores de cada impedancia, incluido el de la impedancia entre centros de estrella..
 
 
 ## Triangulo - Triangulo
 ![img](https://github.com/christian-herrera/Sistemas-Polifasicos/blob/main/docs/imgTriangTriang.jpg?raw=true)
-Este algoritmo necesita los valores de `V<sub>RS<\sub>`, `V<sub>ST<\sub>` y `V<sub>TR<\sub>`. Ademas de las cargas `Z<sub>rn<\sub>`, `Z<sub>sn<\sub>` y  `Z<sub>tn<\sub>`.
+Este algoritmo necesita los valores de tension en cada generador y los valores de cada impedancia.
 
 
 ## Estrella - Triangulo
-Este algoritmo es una extension del anterior ya que recibe los valores de `V<sub>RN<\sub>`, `V<sub>SN<\sub>` y `V<sub>TN<\sub>` y calcula los respectivos `V<sub>RS<\sub>`, `V<sub>ST<\sub>` y `V<sub>TR<\sub>`.
+Este ultimo algoritmo es una extension del anterior ya que recibe los valores de los generadores en estrella y las impedancias en las cargas en triangulo.
